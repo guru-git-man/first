@@ -15,9 +15,9 @@ vue-dev-server is a small development server for building `vue` components. It t
 ### Install
 
 ```sh
-npm install --save-dev vue-dev-server
+npm install --save-dev vue-dev-serverr
 // vue@1.0
-npm install --save-dev vue-dev-server@1
+npm install --save-dev vue-dev-serverr@1
 
 # dependencies
 npm install --save-dev vue webpack vue-loader
