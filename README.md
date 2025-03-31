@@ -1,6 +1,6 @@
 # DEPRECATED see [cerijs](https://github.com/cerijs) and [ceri-dev-server](https://github.com/cerijs/ceri-dev-server)
 
-# vue-dev-server
+# vue-dev-serverr
 
 ## Why?
 
@@ -8,7 +8,7 @@ When you decide to build a new reusable `vue` component, you probably want to se
 
 ## What?
 
-vue-dev-server is a small development server for building `vue` components. It takes different environments (own components) and makes them available in your browser, of course with hot reload functionality.
+vue-dev-serverr is a small development server for building `vue` components. It takes different environments (own components) and makes them available in your browser, of course with hot reload functionality.
 
 ## How?
 
@@ -32,7 +32,7 @@ npm install --save-dev vue-html-loader css-loader vue-style-loader vue-hot-reloa
 ### Usage - cli
 
 ```
-Usage: vue-dev-server [options]
+Usage: vue-dev-serverr [options]
 
   Options:
 
@@ -45,7 +45,7 @@ Usage: vue-dev-server [options]
 
 ### Setting up an environment
 
-By default `vue-dev-server` will look in the `dev` folder for `vue` files.
+By default `vue-dev-serverr` will look in the `dev` folder for `vue` files.
 Just create a `someName.vue` file there. Require your component from there normally.  
 All environments will then be accessible under `http://localhost:8080/`.
 
@@ -55,13 +55,13 @@ All environments will then be accessible under `http://localhost:8080/`.
 ./src/comp.vue // your component.
 ./comp.js // your component compiled down to ES5 (for examply by `vue-compiler`).
 ```
-If you need more examples check out [vue-comps](https://github.com/vue-comps). I'm using `vue-dev-server` for all my components.
+If you need more examples check out [vue-comps](https://github.com/vue-comps). I'm using `vue-dev-serverr` for all my components.
 
 ### Using static option to create a demo for github pages
 
 in conjuction with [gh-pages](https://github.com/tschaub/gh-pages), creating a demo is as simple as this:
 ```sh
-vue-dev-server --static static/ && gh-pages -d static
+vue-dev-serverr --static static/ && gh-pages -d static
 ```
 just make sure you include the static folder in your .gitignore
 
@@ -83,7 +83,7 @@ If you need you own, put a webpack.config.js /.coffee/.json in the `dev` folder.
 ### Additional info
 
  - Add the `dev/index.js` to your `.gitignore`  
- - You can create a npm script in your `package.json`, `"scripts": {"dev": "vue-dev-server"}`. Then you can call it by `npm run dev`
+ - You can create a npm script in your `package.json`, `"scripts": {"dev": "vue-dev-serverr"}`. Then you can call it by `npm run dev`
 
 ## Changelog
 - 2.0.0  
